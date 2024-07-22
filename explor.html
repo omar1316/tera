@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="ptr.css"> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link rel="stylesheet" href="exp.css">
+</head>
+<body>
+   <div class="mt-2"> 
+    <header>
+      <svg style="margin-left: 400px;" xmlns="http://www.w3.org/2000/svg" width="200" height="32" viewBox="0 0 114 32" data-testid="header-hero-logo" class=""><g clip-path="url(#Logo_default_svg__a)"><path fill="#E32851" d="M38.637 7.434h-4.913a.255.255 0 00-.255.255v15.907c0 .14.114.255.255.255h4.913c.14 0 .255-.114.255-.255V7.689a.255.255 0 00-.255-.255z"></path><path fill="#FF932C" d="M52.833 7.6L49.6 16.21a.057.057 0 01-.107 0L46.231 7.6a.255.255 0 00-.239-.165h-5.37a.255.255 0 00-.237.351l6.46 15.907c.039.096.133.16.236.16h4.724a.255.255 0 00.237-.16L58.53 7.786a.255.255 0 00-.237-.352h-5.222a.255.255 0 00-.239.166z"></path><path fill="#0088D9" d="M104.344 7.185c-5.126 0-8.86 3.615-8.86 8.476 0 4.86 3.734 8.475 8.86 8.475 5.068 0 8.861-3.645 8.861-8.475 0-4.86-3.764-8.476-8.861-8.476zm0 12.328c-2.015 0-3.348-1.541-3.348-3.853 0-2.31 1.333-3.852 3.348-3.852 1.986 0 3.349 1.54 3.349 3.853 0 2.281-1.363 3.852-3.349 3.852z"></path><path fill="#E32851" d="M31.673 7.355a2.833 2.833 0 00-.514-.121c-.314-.05-3.647-.424-5.501 2.063-.033.044-.103.02-.103-.034V7.689a.255.255 0 00-.255-.255h-4.913a.255.255 0 00-.255.255v15.907c0 .14.114.255.255.255H25.3a.255.255 0 00.255-.255V17.69c0-4.416 2.044-5.514 4.06-5.514.237 0 .926-.001 1.9.268a.255.255 0 00.322-.245V7.594a.253.253 0 00-.164-.239zM36.18 0c-1.713 0-3.102 1.339-3.102 2.99 0 1.651 1.39 2.99 3.103 2.99 1.713 0 3.102-1.339 3.102-2.99 0-1.651-1.39-2.99-3.102-2.99z"></path><path fill="#FF932C" d="M75.341 7.434H70.43a.255.255 0 00-.255.255v1.565c0 .06-.083.08-.109.024-1.774-3.717-12.282-2.994-12.282 6.364 0 8.748 8.978 10.306 12.29 6.645.036-.04.1-.015.1.038v1.27c0 .142.115.256.256.256h4.912a.255.255 0 00.256-.255V7.689a.255.255 0 00-.255-.255zM66.77 19.495c-2.164 0-3.672-1.508-3.672-3.836s1.508-3.869 3.672-3.869c2.197 0 3.672 1.574 3.672 3.87 0 2.294-1.475 3.835-3.672 3.835z"></path><path fill="#0088D9" d="M93.893 7.434h-4.912a.255.255 0 00-.255.255v1.564c0 .062-.083.08-.11.025-1.78-3.764-11.567-2.82-11.567 5.89 0 8.54 8.92 9.243 11.58 6.759a.057.057 0 01.096.042v.769c-.068 3.629-4.614 5.2-6.924 2.443a.255.255 0 00-.334-.05l-4.14 2.677a.257.257 0 00-.066.368c5.283 7.219 16.802 3.548 16.887-5.422V7.69a.255.255 0 00-.255-.255zm-8.101 11.201c-1.956 0-3.32-1.363-3.32-3.466 0-2.104 1.364-3.497 3.32-3.497 1.985 0 3.318 1.422 3.318 3.497 0 2.074-1.333 3.466-3.318 3.466z"></path><path fill="#E32851" d="M18.424 14.867h-4.92a.26.26 0 00-.254.237 3.92 3.92 0 01-3.907 3.61c-2.472 0-3.472-2.1-3.472-2.1a3.923 3.923 0 01-.448-1.749c0-.02.011-.04.03-.05l1.407-.777 8.894-4.919a.425.425 0 00.22-.372V3.46a.255.255 0 00-.38-.224L5.509 8.814a.057.057 0 01-.086-.05V.452a.255.255 0 00-.394-.214L.194 3.368A.425.425 0 000 3.727v11.14a9.343 9.343 0 0018.68.268.257.257 0 00-.256-.268z"></path></g><defs><clipPath id="Logo_default_svg__a"><path fill="#fff" d="M0 0h113.205v32H0z"></path></clipPath></defs></svg>
+           
+         <a href=""><i  class="fa-regular fa-heart"></i>Favorite</a>
+            <a href="#"><i style="padding-right: 10px;"  class="fa-solid fa-bars"></i>Menu</a>
+            <a href="#"><i style="padding-right: 10px;"  class="fa-solid fa-globe"></i> EN.$</a>
+             <a href="login.html"><i style="padding-right: 10px;"  class="fa-regular fa-circle-user"></i>Login</a>    
+             <a href=""><i class="fa-solid fa-arrows-rotate"></i>Recently viewed</a>
+    </header>
+    <hr>
+</div>
+<div   style="margin-left: 440px;height: 50px;margin-top: 40px;width:70%;" class="input-group mb-3" >
+    <span  id="nave"class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+    <button  id="nave" class="dropdown-toggle" typ>where to?</button>
+    <span   id="nave" class="input-group-text"><i class="fa-regular fa-calendar-check"></i> <span>check in </span> </span>
+     <span id="nave"  style="padding-left: 10px;" class="input-group-text"><i  class="fa-solid fa-credit-card"></i><span> check out </span> </span>
+    <span id="nave"  style="padding-left: 10px;" class="input-group-text"><i class="fa-solid fa-user-group"></i><span>Guests and Room</span></span>
+    <button  class="btn btn-success" type="submit">Search</button>
+</div>
+<div class="infor">
+    <div class="in-t">
+        <button > <p>Price:Per nigth</p></button>
+        <br>
+        <input type="text" placeholder=" $2 - $600 + ">
+    </div>
+    <div class="in-t">
+        <button > <p>Filters</p></button>
+        <br>
+        <input type="text" placeholder="1Applied Filters">
+    </div>
+    <div class="in-t">
+        <button> <p>Property type</p></button>
+        <br>
+        <input type="text" placeholder="ALL">
+    </div>
+    <div class="in-t">
+        <button> <p>Guest rating</p></button>
+        <br>
+        <input type="text" placeholder="Select">
+    </div>
+    <div class="in-t">
+        <button> <p>Location</p></button>
+        <br>
+        <input type="text" placeholder="USA">
+    </div>
+    <button  style="background-color: rgb(142, 199, 239); color: rgb(66, 63, 63); border-radius: 13px;">
+        Beach<i class="fa-solid fa-xmark"></i>
+</button> 
+</div>
+<hr>
+<section style=" background-color: rgb(255, 255, 255)">
+    <div class="con-2">
+        <label>Sort by 
+          <select name="" id="">
+              <option value=" our rec"   selected >our recommendation</option>
+              <option value="price only">price only</option>
+              <option value="">Rating & recommendation</option>
+              <option value="">Price&recommendation</option>
+              <option value="">Rating only</option>
+        </select>
+        <label  style="margin-left: 500px;">
+          <label>We found 121 hotels from 326 site <button><i class="fa-solid fa-location-dot"></i>View app</button></label>
+          
+        </label>
+       </label>
+      
+      </div>
+      <br>
+     
+      </div>
+</section>
+<p style="  margin-left: 430px;">How payments to us affect ranking <i class="fa-solid fa-circle-info"></i></p>
+
+<div  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="p0.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div class="c-continer">
+            <h3>Zachari Dunes on Mandalay Beach, Curio Collection by Hilton
+                <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Rosort</p>
+                <p style="font-weight: 900;">Oxnard</p>
+                <p style="font-weight: 900;">8.2-very good(3187 reviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$256</h2></label>
+        <br>
+        <label for=""> see price from 7 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="q2.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(121, 107, 85) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Adobe Resort<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Rosort</p>
+                <p style="font-weight: 900;">Yachats</p>
+                <p style="font-weight: 900;">8.9-very good(3187 reviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$96</h2></label>
+        <br>
+        <label for=""> see price from 9 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="e.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(217, 202, 178) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Grand Beach Resort Hotel<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Rosort</p>
+                <p style="font-weight: 900;">revace city </p>
+                <p style="font-weight: 900;">9.1-very good(3187 reviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$89</h2></label>
+        <br>
+        <label for=""> see price from 5 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="w.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(167, 221, 246) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Beachcomber Motel<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Motel</p>
+                <p style="font-weight: 900;">Fort Bragg</p>
+                <p style="font-weight: 900;">9.5-very good(4321 reviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$77</h2></label>
+        <br>
+        <label for=""> see price from 9 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="8d92e8d26e5ecb0bc30c959bc341f2d52482a30f1caffed63ab3d981df97.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(119, 170, 146) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Playa Largo Resort & Spa, Autograph Collection<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Motel</p>
+                <p style="font-weight: 900;">Outdoor Activities, Great Breakfast  <br>Key Largo</p>
+                <p style="font-weight: 900;">8.8-very good(4301 reviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$201</h2></label>
+        <br>
+        <label for=""> see price from 9 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="r.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(229, 198, 153) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Margaritaville Lake Resort, Lake Conroe<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Rosto</p>
+                <p style="font-weight: 900;">Outdoor Activities, Great Breakfast  <br>Key Largo</p>
+                <p style="font-weight: 900;">8.8-very good(3232eviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$251</h2></label>
+        <br>
+        <label for=""> see price from 6 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="t.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(220, 152, 149) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Hampton Inn Oceanfront Jacksonville Beac<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Rosto</p>
+                <p style="font-weight: 900;">Convenient Location, Beach Access</p>
+                <p style="font-weight: 900;">9.1-very good(1200eviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$300</h2></label>
+        <br>
+        <label for=""> see price from 9 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="y.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(253, 238, 190) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Hilton Marco Island Beach Resort and Spa<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Rosto</p>
+                <p style="font-weight: 900;">Convenient Location, Beach Access</p>
+                <p style="font-weight: 900;">9.3-very good(1700eviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$127</h2></label>
+        <br>
+        <label for=""> see price from 9 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="u.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(244, 151, 182) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>HOmni Hilton Head Oceanfront Resort<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>Rosto</p>
+                <p style="font-weight: 900;">Convenient Location, Beach Access</p>
+                <p style="font-weight: 900;">8.3-very good(3200eviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$177</h2></label>
+        <br>
+        <label for=""> see price from 8 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="i.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(229, 244, 151) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>The Singer Oceanfront Resort, Curio Collection by Hilton<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Beachfront Paradise, Oceanfront Activities </p>
+                <p style="font-weight: 900;">7.3-very good(3200eviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$232</h2></label>
+        <br>
+        <label for=""> see price from 5 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="a.webp" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(237, 240, 224) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Guy Harvey Resort on Saint Augustine Beach<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Beachfront Location, Friendly Staff
+                     </p>
+                <p style="font-weight: 900;">8.6-very good(400eviews)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$123</h2></label>
+        <br>
+        <label for=""> see price from 4 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="s.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(241, 239, 153) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Hawks Cay Resort<i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Endless Activities, Family-Friendly </p>
+                <p style="font-weight: 900;">7.9-very good(9878views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$400</h2></label>
+        <br>
+        <label for=""> see price from 9 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="d.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(100, 134, 106) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Snyders Shoreline Inn
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Ludington</p>
+                <p style="font-weight: 900;">8.0-very good(9767views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$340</h2></label>
+        <br>
+        <label for=""> see price from 9 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="f.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(233, 255, 65) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Hilton Garden Inn Ft. Walton Beach
+                
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Relaxing Atmosphere, Family-Friendly 
+
+                    Fort Walton Beach
+    </p>
+                <p style="font-weight: 900;">9.0-very good(9767views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$540</h2></label>
+        <br>
+        <label for=""> see price from 10 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="g.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(255, 143, 118) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Amelia Hotel at the Beach
+              
+                
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Local Attractions, Beachfront Location 
+
+                    Fernandina Beach
+                    
+                    
+                    </p>
+                    
+                <p style="font-weight: 900;">9.4-very good(9767views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$440</h2></label>
+        <br>
+        <label for=""> see price from 8 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="h.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(130, 183, 192) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>The Nautical Beachfront Resort
+            
+              
+                
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Lake Havasu City
+                    
+                    </p>
+                    
+                <p style="font-weight: 900;">7.4-very good(967views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$210</h2></label>
+        <br>
+        <label for=""> see price from 5 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="j.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(255, 226, 172) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>THutchinson Island Hotel
+                
+            
+              
+                
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Fort Pierce
+
+                    
+                    
+                    </p>
+                    
+                <p style="font-weight: 900;">8.1-very good(2267views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$210</h2></label>
+        <br>
+        <label for=""> see price from 5 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="k.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(255, 235, 87) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Fort Lauderdale Marriott Pompano Beach Resort and Spa
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Leisure Facilities, Friendly Service 
+
+                    Pompano Beach
+                   
+   
+                    </p>
+                    
+                <p style="font-weight: 900;">8.1-very good(7267views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$545</h2></label>
+        <br>
+        <label for=""> see price from 7 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="z.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(255, 226, 172) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>Crowne Plaza Ventura Beach, an IHG Hotel
+               
+            
+              
+                
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Culinary Delights, Business Facilities 
+
+                 
+
+                    
+                    
+                    </p>
+                    
+                <p style="font-weight: 900;">8.1-very good(2867views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$432</h2></label>
+        <br>
+        <label for=""> see price from 6 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="x.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(202, 139, 238) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>
+                Tropicana Casino and Resort
+            
+               
+            
+              
+                
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Entertainment, Dining Options
+                    
+                    
+                    </p>
+                    
+                <p style="font-weight: 900;">8.1-very good(2867views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$19</h2></label>
+        <br>
+        <label for=""> see price from 6 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="c.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(70, 206, 255) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>
+                Tropicana Casino and Resort
+            
+               
+            
+              
+                
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Coos Bay
+                    </p>
+                    
+                <p style="font-weight: 900;">8.1-very good(2867views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$19</h2></label>
+        <br>
+        <label for=""> see price from 6 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="v.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(70, 113, 255) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>
+                Island Inn & Suites, Ascend Hotel Collection
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">St. Mary's City
+
+                    </p>
+                    
+                <p style="font-weight: 900;">8.1-very good(2867views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$103</h2></label>
+        <br>
+        <label for=""> see price from 11 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="b.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(214, 221, 238) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>
+                Hutchinson Shores Resort & Spa
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Family-Friendly, Romantic Weddings 
+
+                
+                    </p>
+                    
+                <p style="font-weight: 900;">9.1-very good(7767views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$187</h2></label>
+        <br>
+        <label for=""> see price from 11 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="n.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(97, 151, 201) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>
+                The Ritz-Carlton Reynolds, Lake Oconee
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Greensboro
+
+                    
+                  
+                    </p>
+                    
+                <p style="font-weight: 900;">9.3-very good(7767views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$466</h2></label>
+        <br>
+        <label for=""> see price from 8 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div style="margin-top: 110px;"  class="btn-group">
+   
+    <div class="c-item">
+        <div class="c-imge">
+            <img src="m.avif" alt="c-imge" style="width: 100%; border-radius: 13px; padding-right: 5px ;">
+        </div>
+        <div  style="background-color:rgb(161, 120, 169) ; height: 100px; border-radius: 13px;" class="c-continer">
+            <h3>
+                The Waterfront Beach Resort, A Hilton Hotel
+            <i class="fa-regular fa-heart"></i></h3>
+                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i>Rosto</p>
+                <p style="font-weight: 900;">Family-Friendly, Outdoor Amenities 
+
+                 
+                    
+
+                    
+                  
+                    </p>
+                    
+                <p style="font-weight: 900;">8.8-very good(7767views)</p>
+                <p style="font-weight: 900;">includes:Beach</p>
+        </div>
+        
+    </div>
+    <div class="t-bt">
+      <label style="margin-left: 13px;">  from <h2>$329</h2></label>
+        <br>
+        <label for=""> see price from 8 site <div style="background-color: rgb(44, 142, 221); color: white; font-weight: bold;
+        margin: 5px 5px 3px 3px ;"class="btn" >
+            see price 
+     </div></label>
+     
+    </div>
+  </div>
+  <div  class="btn-or" style="margin-top: 100px;margin-left: 700px;margin-bottom: 100px;">
+    <button >1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button><i class="fa-solid fa-chevron-right"></i></button>
+    <button style="margin-left: 80px;"><i class="fa-solid fa-chevron-up"></i></button>
+  </div>
+  <br>
+  <footer  class="footer-continer">
+    <div class="column">
+        <div style="float: right;" class="souil"> 
+       
+        </div class="lik">
+             <button><i class="fa-brands fa-facebook"></i></button>  
+             <button><i class="fa-brands fa-twitter"></i></button>
+            <button><i class="fa-brands fa-youtube"></i></button>
+            <button>   <i class="fa-brands fa-linkedin"></i></button>
+        
+         <br>
+         <br><br><br>
+         <h3>Get exclusive inspiration for your next stay </h3>
+         <h3>– subscribe to our newsletter.</h3>
+           <div class="btn-group">
+            <input type="email" placeholder="Email Address" value="Email Address">
+            <button>Subscribe</button>
+        </div>
+        <p>trivago N.V., Kesselstraße 5 – 7, 40221 Düsseldorf, Germany
+
+            Copyright 2024 trivago | All rights reserved.</p>
+    </div>
+    <div class="column">
+        <a href="">Company</a>
+        <br>
+        <a href="">Jobs</a>
+        <br>
+        <a href="">Press</a>
+        <br>
+        <a href="">Investor relations</a>
+        <br>
+        <a href="">Mobile apps - searching on the go</a>
+        <br>
+        <a href="">trivago Business Studio        </a>
+        <br>
+        <a href="">Affiliate</a>
+       
+    </div>
+    <div class="column">
+        <a href="">Help</a>
+        <br>
+        <a href="">Learn how trivago works</a>
+        <br>
+        <a href="">Terms and conditions
+        </a>
+        <br>
+        <a href="">Legal information
+        </a>
+        <br>
+        <a href="">Do not sell my personal information</a>
+        <br>
+        <a href="">Privacy notice
+        </a>
+        <br>
+        <a href="">Cyber Security
+        </a>
+       
+    </div>
+</footer>
+   
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+ 
+    
+
+
+
+  
+
+ 
+    
+
+
+
+</body>

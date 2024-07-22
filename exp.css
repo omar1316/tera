@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infor{
+    display: flex;
+   margin-left: 430px;
+}
+.in-t
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.in-t button{
+   font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    border: none;
+}
+.in-t input{
+
+    border-radius: 12px;
+}
+.con-2
+{
+    margin-left: 430px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.con-2 button {
+    border-radius: 8px;
+    
+}
+.con-2 select{
+    border-radius: 8px;
+
+}
+.bnt-group{
+    width: 40%;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0.6rem 0;
+    box-shadow: 0 0 16px -4 rgba(0, 0, 0, 0.75);
+    animation: fadeIn 2s;
+ 
+   
+  
+    
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.bnt-group
+{
+    display: flex;
+}
+.c-item
+{
+    display: grid;
+    grid-template-columns: 25% auto;
+    margin-left: 430px;
+     background-color: rgb(192, 182, 182);
+     border-radius: 15px;
+     height: 100px;
+    width: 800px;
+}
+.t-bt{
+    background-color: rgb(188, 225, 248);
+    border-radius: 13px;
+    margin: 0px 5px 5px 5px ;
+    
+}
+.btn-or button
+{
+    height: 40px;
+    width: 3%;
+    background:none;
+    border: none;
+    font-weight: bold;
+    padding: 15px 15px 15px 15px ;
+
+}
+.btn-or button:hover{
+    background-color: rgba(156, 156, 156, 0.856);
+    border-radius: 4px;
+    border: rgba(5, 5, 5, 0.856);
+}
